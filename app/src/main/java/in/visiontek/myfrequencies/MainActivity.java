@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("OnCreate ");
         TextView deviceInfoTextView = findViewById(R.id.cpuFrequencyRangeTextView);
 
         StringBuilder deviceInfo = new StringBuilder();
